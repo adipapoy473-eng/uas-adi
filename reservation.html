@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Reservasi Meja</h2>
+
+<form>
+    <label>Nama Lengkap</label>
+    <input type="text" required>
+
+    <label>Email</label>
+    <input type="email" required>
+
+    <label>Nomor HP</label>
+    <input type="tel" required>
+
+    <label>Tanggal Reservasi</label>
+    <input type="date">
+
+    <label>Jam</label>
+    <input type="time">
+
+    <label>Jumlah Orang</label>
+    <input type="number" min="1" max="10">
+
+    <label>Pilih Cabang</label>
+    <select>
+        <option>Jakarta</option>
+        <option>Bandung</option>
+    </select>
+
+    <label>Permintaan Khusus</label>
+    <textarea></textarea>
+
+    <label>
+        <input type="checkbox" required>
+        Saya yakin data benar
+    </label>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h3>FAQ</h3>
+<ul>
+    <li>Apakah reservasi gratis? Ya</li>
+    <li>Apakah bisa cancel? Bisa</li>
+    <li>Apakah ada minimal order? Tidak</li>
+</ul>
+
+</body>
+</html>
